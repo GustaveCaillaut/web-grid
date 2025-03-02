@@ -21,6 +21,7 @@ h2 {
   grid-template-columns: repeat(10, 1fr);
 }
 
+
 #grid > div {
   width: 50px;
   height: 50px;
@@ -28,6 +29,9 @@ h2 {
   background-color: lightcoral;
 }
 
+#grid > div.boutonHover {
+  background-color: rgb(30, 45, 90);
+}
 #instructions {
   width: 600px;
 }
